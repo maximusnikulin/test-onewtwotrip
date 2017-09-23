@@ -22,7 +22,6 @@ class App extends Component {
 
     renderContent = () => {
         let {loading} = this.props;
-
         //Программа не имеет функциональности пока нет данных
 
         if (loading) {
